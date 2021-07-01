@@ -1,7 +1,7 @@
 //REVERSE OF ARRAY
 
 #include<stdio.h>
-void main(){
+int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
@@ -21,4 +21,5 @@ void main(){
     for(int i=0;i<n;i++){
         printf("\t%d",arr[i]);
     }
+    return 0;
 }
