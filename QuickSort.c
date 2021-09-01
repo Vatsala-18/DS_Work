@@ -1,7 +1,7 @@
 //QUICK SORT
 
 #include<stdio.h>
-#include<math.h>
+
 void swap(int* val1,int* val2){
     int temp = *val1;
     *val1 = *val2;
